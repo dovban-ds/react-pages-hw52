@@ -1,0 +1,54 @@
+.album-cont {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.album-box {
+  background-color: #a8ae9f;
+  padding: 18px;
+  border-radius: 8px;
+  margin: 8px 0;
+  flex-basis: 25%;
+  flex-wrap: wrap;
+}
+
+.album-main {
+  height: calc(100vh - 30px);
+}
+
+.home {
+  margin-bottom: 28px;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  transition: color 1s;
+}
+
+a:visited {
+  color: aliceblue;
+}
+
+a:hover {
+  color: #888c82;
+  cursor: pointer;
+}
+
+.pht-btn {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #838580;
+  color: aliceblue;
+  font-weight: 600;
+  transition: background-color 1.5s;
+}
+
+.pht-btn:hover {
+  cursor: pointer;
+  background-color: #555652;
+}
