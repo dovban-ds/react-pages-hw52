@@ -8,7 +8,7 @@ function App(props) {
   return (
     <div className="app">
       <Routes>
-        <Route basename="/react-pages-hw52" path="/" element={<Main />} />
+        <Route path="/" element={<Main />} />
         <Route path="users/:userId/albums" element={<Album />} />
         <Route path=":albumId/photos" element={<Photos />} />
       </Routes>
